@@ -13,7 +13,9 @@ export default function Home() {
         alt="Até 55% de desconto esse mês!"
       />
 
-      <Categories />
+      <div className="mt-8">
+        <Categories />
+      </div>
     </div>
   );
 }
